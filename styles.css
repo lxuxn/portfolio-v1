@@ -1,8 +1,21 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .homepage-container {
     width: 100%;
     display: flex;
 }
 
 .column-1, .column-2 {
+    display: flexbox;
     width: 50%;
+}
+
+.column-1 img {
+    width: 50%;
+}
+
+.column-2 h1, .column-2 h2 {
+    font-weight: 400;
 }
