@@ -1,21 +1,51 @@
 *{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'JetBrains Mono', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
 }
 
-.homepage-container {
+.about-container, .projects-container {
     width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
 }
 
-.column-1, .column-2 {
-    display: flexbox;
-    width: 50%;
+.column-1 {
+    height: 100vh;
+    width: 25%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px dashed gray;
 }
 
-.column-1 img {
-    width: 50%;
+.column-2 {
+    display: flex;
+    width: 75%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.column-2 h1, .column-2 h2 {
-    font-weight: 400;
+.column-2 img {
+    width: 30%;
+}
+
+.column-1 ul {
+    list-style: none;
+    padding: 0;
+}
+.about-container .column-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.about-container .column-2 {
+    margin-left: 25%;
 }
