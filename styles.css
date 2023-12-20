@@ -20,9 +20,11 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    border-right: 1px dashed gray;
 }
 
+.about-container .column-1{
+    border-right: 1px dashed gray;
+}
 .column-2 {
     display: flex;
     width: 75%;
